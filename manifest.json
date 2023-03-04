@@ -1,0 +1,27 @@
+{
+  "name": "Calendar Event Extractor",
+  "description": "Extension that extracts calender events from natural text",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["https://calendar-event-extractor.onrender.com/*"],
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/favicon-16x16.png",
+      "32": "images/favicon-32x32.png",
+      "48": "images/favicon-48x48.png",
+      "128": "images/favicon-128x128.png",
+      "512": "images/favicon-512x512.png"
+    }
+  },
+  "icons": {
+    "16": "images/favicon-16x16.png",
+    "32": "images/favicon-32x32.png",
+    "48": "images/favicon-48x48.png",
+    "128": "images/favicon-128x128.png",
+    "512": "images/favicon-512x512.png"
+  }
+}
